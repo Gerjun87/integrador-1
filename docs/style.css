@@ -1,0 +1,359 @@
+.cabecera {
+    width: 100%;
+    background-color: #333a40;
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    width: 10%;
+    margin-left: 7%;
+}
+
+.logo-img{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 5rem;
+}
+
+.cabecera-logo-titulo{
+    margin-top: 1.2rem;
+    font-size: 1.7rem;
+    color: white;
+    margin-right: 3rem;
+}
+
+.cabecera-nav{
+    display: flex;
+    margin-left: auto;
+    width: 70%;
+}
+
+.nav-lista{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    list-style: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #8e8b92;
+}
+
+.color{
+    color: #27a843;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+/*--------------------------*/
+
+.carousel-item img{
+    width: 100%;
+    height: 75vh;
+    object-position: center;
+    object-fit: cover;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.carousel{
+    position: relative;
+}
+
+.carousel-text{
+    text-align: end;
+    width: 42%;
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    color: white;
+}
+
+.carousel-text-p{
+    font-size: 20px;
+} 
+
+.capa {
+    top: 0;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 75vh;
+}
+
+.carousel-button-1{
+    background-color: transparent;
+    color: white;
+    padding: 7px;
+    border: white solid 1px;
+    border-radius: 5px;
+}
+
+.carousel-button-1:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.carousel-button-2{
+    background-color: #27a844;
+    color: white;
+    padding: 7px;
+    border: white solid 1px;
+    border-radius: 5px;
+}
+
+.carousel-button-2:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.oradores{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.oradores-subtitulo{
+    width: 100%;
+    align-items: center;
+}
+
+.oradores-subtitulo-1{
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    widows: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.oradores-subtitulo-2{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    widows: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.oradores-detalles{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5%;
+}
+
+.oradores-detalles-1{
+    border: #8e8b92 solid 1px;
+    width: 31%;
+}
+
+.oradores-detalles-1 img{
+    width: 100%;
+}
+
+.oradores-detalles-2{
+    border: #8e8b92 solid 1px;
+    width: 31%;
+}
+
+.oradores-detalles-2 img{
+    width: 100%;
+}
+
+.oradores-detalles-3{
+    border: #8e8b92 solid 1px;
+    width: 31%;
+}
+
+.oradores-detalles-3 img{
+    width: 100%;
+}
+
+.oradores-text{
+    margin: 25px;
+}
+
+.oradores-text-js{
+    background-color: #fec107;
+    padding: 0 5px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.oradores-text-rc{
+    background-color: #1ba2b8;
+    color: white;
+    padding: 0 5px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.oradores-text-ng{
+    background-color: #6c757c;
+    color: white;
+    padding: 0 5px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.oradores-text-st{
+    background-color: #dd3647;
+    color: white;
+    padding: 0 5px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.informacion{
+    widows: 100%;
+    display: flex;
+}
+
+.informacion-honolulu{
+    width: 50%;
+    border: white solid 1px;
+}
+
+.informacion-honolulu img{
+    width: 100%;
+}
+
+.informacion-mas{
+    background-color: #333a40;
+    color: white;
+    width: 50%;
+    border: white solid 1px;
+}
+
+.mas-text{
+    margin: 1.5rem;
+}
+
+.mas-text p{
+    font-size: 0.87rem;
+}
+
+.mas-text input{
+    background-color: transparent;
+    color: white;
+    border: white solid 1px;
+    border-radius: 5px;
+}
+
+.mas-text input:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.contacto{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacto h6{
+    font-size: 0.7rem;
+    width: 100%;
+    text-align: center;
+}
+
+.contacto h3{
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.contacto p{
+    width: 100%;
+    text-align: center;
+}
+
+.contacto-input-1{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.contacto-input-1 input{
+    width: 23%;
+    margin: 0 1rem;
+}
+
+.area{
+    width: 48.35%;
+    margin: 1% auto;
+}
+
+.contacto textarea{
+    width: 100%;
+}
+
+.area p{
+    text-align: initial;
+    color: #6d8bbd;
+}
+
+.area button{
+    width: 100%;
+    padding: 0.6rem;
+    background-color: #96c93e;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.area button:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.contacto a{
+    border-bottom:3px dotted;
+    text-decoration:none;
+    color: black;
+}
+
+footer {
+    width: 100%;
+    background-color: #1c3f53;
+    height: 5rem;
+    display: flex;
+}
+
+.pie{
+    margin: auto;
+    align-items: center;
+    display: flex;
+    width: 80%;
+}
+
+.pie li{
+    flex-wrap: wrap;
+    width: 10%;
+    align-items: center;
+    list-style: none;
+    color: white;
+    margin: auto;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.nav-link2{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link2:hover{
+    color: #96c93e;
+}
