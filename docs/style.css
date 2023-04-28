@@ -139,17 +139,13 @@ nav div .a--tickets {
     color: #6d8bbd;
 }
 
-.area button{
+.color__button--send{
     width: 100%;
-    padding: 0.6rem;
     background-color: #96c93e;
-    border-radius: 5px;
-    border: none;
     color: white;
-    font-size: 1.4rem;
 }
 
-.area button:active{
+.color__button--send:active{
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }

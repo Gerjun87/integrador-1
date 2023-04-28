@@ -266,21 +266,23 @@
                     <a href="#">charla ignite</a>. Cuentanos de qué quieres
                     hablar!
                 </p>
-                <div class="contacto-input-1">
-                    <input type="text" name="" id="" placeholder="Nombre" />
-                    <input type="text" name="" id="" placeholder="Apellido" />
-                </div>
-                <div class="area">
-                    <textarea
-                        name=""
-                        id=""
-                        cols="30"
-                        rows="5"
-                        placeholder="Sobre qué quieres hablar?"
-                    ></textarea>
-                    <p>Recuerda incluir un título para tu charla</p>
-                    <button>Enviar</button>
-                </div>
+                <div class="container my-6 justify-content-center col-8">
+                    <div class=" d-flex mb-3 ">
+                     
+                      <input type="text" class="form-control w-40" id="input1" placeholder="Nombre">
+                      
+                      <input type="text" class="form-control w-40 ms-4" id="input2" placeholder="Apellido">
+                    </div>
+        
+                    <div class="mb-3">
+                     
+                      <textarea class="form-control fs-5" id="exampleFormControlTextarea1" rows="3" placeholder="Sobre qué quieres hablar?"></textarea>
+                      <label for="exampleFormControlTextarea1" class="form-label">Recuerda incluir un titulo para tu charla</label>
+                    </div>
+                    <div class="d-grid gap-2">
+                       <button class="btn color__button--send" type="button">Enviar</button>
+                    </div>
+                  </div>
             </div>
         </main>
         <footer class="footer mt-2 footer--background">
