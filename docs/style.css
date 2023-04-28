@@ -56,17 +56,6 @@ nav div .a--tickets {
     background-color: #33a74e;
 }
 
-.oradores{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.oradores-subtitulo{
-    width: 100%;
-    align-items: center;
-}
-
 .oradores-subtitulo-1{
     text-align: center;
     margin: auto;
@@ -85,90 +74,6 @@ nav div .a--tickets {
     align-items: center;
 }
 
-.oradores-detalles{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 2.5%;
-}
-
-.oradores-detalles-1{
-    border: #8e8b92 solid 1px;
-    width: 31%;
-}
-
-.oradores-detalles-1 img{
-    width: 100%;
-}
-
-.oradores-detalles-2{
-    border: #8e8b92 solid 1px;
-    width: 31%;
-}
-
-.oradores-detalles-2 img{
-    width: 100%;
-}
-
-.oradores-detalles-3{
-    border: #8e8b92 solid 1px;
-    width: 31%;
-}
-
-.oradores-detalles-3 img{
-    width: 100%;
-}
-
-.oradores-text{
-    margin: 25px;
-}
-
-.oradores-text-js{
-    background-color: #fec107;
-    padding: 0 5px;
-    border-radius: 5px;
-    font-weight: 500;
-}
-
-.oradores-text-rc{
-    background-color: #1ba2b8;
-    color: white;
-    padding: 0 5px;
-    border-radius: 5px;
-    font-weight: 500;
-}
-
-.oradores-text-ng{
-    background-color: #6c757c;
-    color: white;
-    padding: 0 5px;
-    border-radius: 5px;
-    font-weight: 500;
-}
-
-.oradores-text-st{
-    background-color: #dd3647;
-    color: white;
-    padding: 0 5px;
-    border-radius: 5px;
-    font-weight: 500;
-}
-
-.informacion{
-    widows: 100%;
-    display: flex;
-}
-
-.informacion-honolulu{
-    width: 50%;
-    border: white solid 1px;
-}
-
-.informacion-honolulu img{
-    width: 100%;
-}
-
 .informacion-mas{
     background-color: #333a40;
     color: white;
@@ -183,18 +88,6 @@ nav div .a--tickets {
 
 .mas-text p{
     font-size: 0.87rem;
-}
-
-.mas-text input{
-    background-color: transparent;
-    color: white;
-    border: white solid 1px;
-    border-radius: 5px;
-}
-
-.mas-text input:active{
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
 }
 
 .contacto{
