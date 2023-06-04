@@ -12,6 +12,7 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="style.css" />
+        <script type="text/javascript" src="js/scripts.js"></script>
     </head>
     <body>
         <header>
@@ -62,7 +63,10 @@
                                 >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link a--tickets" style="color: #33a74e" href="#"
+                                <a
+                                    class="nav-link"
+                                    style="color: #33a74e"
+                                    href="compratk.html"
                                     >Comprar tickets</a
                                 >
                             </li>
@@ -130,8 +134,7 @@
                             class="btn btn-success color__button--tickets"
                             type="button"
                             value="Comprar tickets"
-                        >
-                            Comprar tickets
+                        ><a class="nav-link text-light" href="compratk.html">Comprar tickets</a>
                         </button>
                     </div>
                 </div>
@@ -243,20 +246,42 @@
                 </div>
             </div>
             <div class="informacion">
-                <div class="card mb-3 my-4" style="max-width: 100;">
+                <div class="card mb-3 my-4" style="max-width: 100">
                     <div class="row g-0">
-                      <div class="col-md-6 border">
-                        <img src="./imagenes/honolulu.jpg" class="card-img-top h-100 object-cover rounded-0" alt="honolulu">
-                      </div>
-                      <div class="col-md-6 informacion__text--background border">
-                        <div class="informacion-mas p-4 text-white">
-                          <h4 class="mas-text">Bs As - Octubre</h4>
-                          <p>Buenos Aires es la provincia mas grande del estado de Argentina. En los Estados Unidos, Honolulu es la mas sureñas de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al area urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad - condado consolidada que cubre toda la ciudad( aproximadamente 600 km2 de superficie) </p>                  
-                          <button type="button" class="btn btn-outline-light">Conoce mas</button>
+                        <div class="col-md-6 border">
+                            <img
+                                src="./imagenes/honolulu.jpg"
+                                class="card-img-top h-100 object-cover rounded-0"
+                                alt="honolulu"
+                            />
                         </div>
-                      </div>
+                        <div
+                            class="col-md-6 informacion__text--background border"
+                        >
+                            <div class="informacion-mas p-4 text-white">
+                                <h4 class="mas-text">Bs As - Octubre</h4>
+                                <p>
+                                    Buenos Aires es la provincia mas grande del
+                                    estado de Argentina. En los Estados Unidos,
+                                    Honolulu es la mas sureñas de entre las
+                                    principales ciudades estadounidenses. Aunque
+                                    el nombre de Honolulu se refiere al area
+                                    urbana en la costa sureste de la isla de
+                                    Oahu, la ciudad y el condado de Honolulu han
+                                    formado una ciudad - condado consolidada que
+                                    cubre toda la ciudad( aproximadamente 600
+                                    km2 de superficie)
+                                </p>
+                                <button
+                                    type="button"
+                                    class="btn btn-outline-light"
+                                >
+                                    Conoce mas
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+                </div>
             </div>
             <div class="contacto">
                 <h6>CONVIERTETE EN UN</h6>
@@ -267,22 +292,41 @@
                     hablar!
                 </p>
                 <div class="container my-6 justify-content-center col-8">
-                    <div class=" d-flex mb-3 ">
-                     
-                      <input type="text" class="form-control w-40" id="input1" placeholder="Nombre">
-                      
-                      <input type="text" class="form-control w-40 ms-4" id="input2" placeholder="Apellido">
+                    <div class="d-flex mb-3">
+                        <input
+                            type="text"
+                            class="form-control w-40"
+                            id="input1"
+                            placeholder="Nombre"
+                        />
+
+                        <input
+                            type="text"
+                            class="form-control w-40 ms-4"
+                            id="input2"
+                            placeholder="Apellido"
+                        />
                     </div>
-        
+
                     <div class="mb-3">
-                     
-                      <textarea class="form-control fs-5" id="exampleFormControlTextarea1" rows="3" placeholder="Sobre qué quieres hablar?"></textarea>
-                      <label for="exampleFormControlTextarea1" class="form-label">Recuerda incluir un titulo para tu charla</label>
+                        <textarea
+                            class="form-control fs-5"
+                            id="exampleFormControlTextarea1"
+                            rows="3"
+                            placeholder="Sobre qué quieres hablar?"
+                        ></textarea>
+                        <label
+                            for="exampleFormControlTextarea1"
+                            class="form-label"
+                            >Recuerda incluir un titulo para tu charla</label
+                        >
                     </div>
                     <div class="d-grid gap-2">
-                       <button class="btn color__button--send" type="button">Enviar</button>
+                        <button class="btn color__button--send" type="button">
+                            Enviar
+                        </button>
                     </div>
-                  </div>
+                </div>
             </div>
         </main>
         <footer class="footer mt-2 footer--background">
