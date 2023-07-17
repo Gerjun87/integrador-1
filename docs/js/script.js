@@ -1,39 +1,46 @@
+function calculateTotalPrice() {
+    console.log("Calculando precio...");
 
-function calPrecioFinal() {
-    console.log("ingreso a calcular precio");
+    // Almacena la cantidad de entradas ingresadas por el usuario
+    let numTickets = document.getElementById("num-tickets").value;
+    console.log("numTickets: " + numTickets);
 
-    //en cantEnt almacenamos la cantidad de entradas que ingreso el usuario
-    let cantEnt = document.getElementById("cantEntradas").value; 
-    console.log("cantEnt: " + cantEnt);
+    // Almacena el porcentaje de descuento seleccionado por el usuario
+    let discountPercentage = document.getElementById("discount-percentage").value;
+    console.log("discountPercentage: " + discountPercentage);
 
-    // en porcDesc almacenamos el porcentaje de descuento que selecciono el usuario
-    let porcDesc = document.getElementById("porcDescuento").value;
-    console.log("porcDesc: " + porcDesc);
+    // Calcula el monto total de descuento en moneda
+    let discount = (numTickets * 1000) * discountPercentage / 100;
+    console.log("discount: " + discount);
 
-    //en descuento almacenamos los pesos totales a descontar
-    let descuento = (cantEnt*1000) * porcDesc/100;
-    console.log("descuento: " + descuento);
+    // Calcula el precio total restando el descuento al valor de la entrada
+    let totalPrice = (numTickets * 1000) - discount;
+    console.log("totalPrice: " + totalPrice);
 
-    //en precioTotal está el valor de las entradas x cant menos el descuento en pesos
-    let precioTotal = (cantEnt*1000) - descuento;
-    console.log("preciototal: " + precioTotal);
-
-    
-    // modificando dinámicamente el html para colocar el precio total en la pantalla
-    document.getElementById("valorTotal").value=precioTotal;
+    // Actualiza el HTML para mostrar el precio total en la pantalla
+    document.getElementById("total-price").value = totalPrice;
 }
 
-// Boton flotante
+// Botón flotante
 (function() {
-    //a partir de que punto del scroll vertical de la ventana mostrará el botón
-    const ishow = 115
-    const $divtop = document.getElementById("div-totop")
+    // Posición de desplazamiento en la que se mostrará el botón
+    const scrollPositionToShow = 115;
+    const divTop = document.getElementById("div-totop");
     window.addEventListener("scroll", function() {
-        if(document.documentElement.scrollTop > ishow){
-            $divtop.style.display = "inherit"
+        if (document.documentElement.scrollTop > scrollPositionToShow) {
+            divTop.style.display = "inherit";
+        } else {
+            divTop.style.display = "none";
         }
-        else {
-            $divtop.style.display = "none"
-        }
-    })
-  })()
+    });
+})();
+
+// Envío del formulario
+document.querySelector("form").addEventListener("submit", function(event) {
+    event.preventDefault(); // Evita el envío del formulario
+
+    // Muestra un mensaje de éxito personalizado
+    let successMessage = "¡Compra exitosa! Se ha emitido una alerta.";
+    alert(successMessage);
+
+});
